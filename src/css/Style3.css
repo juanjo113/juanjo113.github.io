@@ -1,0 +1,170 @@
+/* Mi primer comentario */
+body{
+  
+    margin: auto;
+    width: 100;
+
+}
+header   {
+	
+	
+	color: green;
+	
+	 padding: 1px;
+	 margin: 0px;
+	  
+	text-align: center;
+     
+	}
+ 
+/* Esto es el color y configuracion barra de navegacion */
+nav  {
+    width: auto;
+    background-color: green;
+    text-align: center;
+    
+    }
+
+/* Esto es el margen de la barra de navegacion con respecto al titulo */
+nav ul {
+    
+    margin: 0px;
+    
+}
+
+
+/* Esto es la barra de navegacion */
+nav ul li {
+    
+    display:inline-block;
+    padding:15px;
+    padding-left: 40px;
+    padding-right:40px;
+    text-align: center;
+}
+
+/* Esto es el color de la letra de la  barra de navegacion */
+nav ul li a {
+    
+    text-decoration: inherit;
+    color: white;
+        
+}
+
+
+section .par_color{
+    font-size: 30px;
+    color: brown;
+    
+}
+
+/* Esto es la configuracion de los datos de la pagina principal */
+section {
+    width: 70%;
+    padding: 3%;
+    background-color: white;
+    float: left;
+    
+}
+    /* Esto es la barra lateral */
+    aside {
+        
+        width: 18%;
+        padding: 3%;
+       
+        float: right;
+    }
+
+aside.betis1 {
+        
+        width: 18%;
+        padding: 1%;
+        float: right;
+        background-color: white;
+        border: 0px solid ;
+        padding: 2px;
+    margin-top: 0px;
+  
+     
+    }
+ 
+    aside{
+        
+        border: 1px solid green;
+        color: white;
+        padding: 1px;
+        margin: 30px;
+        text-align: center;
+        background-color: green;
+  
+
+    }
+p.betis{
+    
+    color:white;
+    text-align: center;
+}
+
+/* Esto el titulo REAL BETIS BALOMPIE */
+  section h1{ 
+
+   
+	color: seagreen;
+	 margin: 0px;
+	font-family:monospace;
+    font-size: 50px;
+	text-align: center;
+
+}
+
+/* Esto es la noticia Madrid aplasta a un mal Betis */
+section h2{
+    
+    margin-top: 100px;
+	color:black;
+	vertical-align: baseline;
+	font-family:cursive ;
+    font-size: 24px;
+	text-align: center;
+    text-shadow: 2px 2px green;    
+}
+  
+/* Esto es el parrafo de la noticia del madrid aplasta a un mal betis */
+p {
+    
+    text-align: left;
+    color:black;
+     width: 100%;
+    font-size: 19px;
+    
+}
+
+/* Esto es la imagen y la letra de la noticia */
+h3.big a {
+    
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-top: 8px;
+    letter-spacing: -2px;
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+    width: 20%;
+    font-family: sans-serif;
+    text-align: left;
+   
+  
+    
+  
+}
+
+article.noticia1{
+    width: 100%;
+    float: center;
+}
+
+div.campo{
+    
+    text-align: center;
+}
+
